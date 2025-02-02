@@ -83,7 +83,7 @@ body {
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 680px) {
   .animated-box1 {
     width: 70px;
     height: 70px;
