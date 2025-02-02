@@ -20,6 +20,7 @@ body {
   background-color: #3498db;
   border-radius: 10px;
   animation: moveUpDown 2s ease-in-out infinite;
+  border-radius: 1000px;
 }
 
 .animated-box2 {
@@ -31,6 +32,7 @@ body {
   position: absolute;
   top: 50%;
   left: 20%;
+  border-radius: 1000px;
 }
 
 .animated-box3 {
@@ -42,6 +44,7 @@ body {
   position: absolute;
   top: 30%;
   left: 70%;
+  border-radius: 1000px;
 }
 
 .animated-box4 {
@@ -53,6 +56,7 @@ body {
   position: absolute;
   top: 80%;
   left: 50%;
+  border-radius: 1000px;
 }
 
 .animated-box5 {
@@ -64,6 +68,7 @@ body {
   position: absolute;
   top: 40%;
   left: 80%;
+  border-radius: 1000px;
 }
 
 @keyframes moveUpDown {
@@ -82,6 +87,7 @@ body {
   .animated-box1 {
     width: 70px;
     height: 70px;
+    border-radius: 1000px;
   }
 
   .animated-box2 {
@@ -89,6 +95,7 @@ body {
     height: 70px;
     top: 50%;
     left: 5%;
+    border-radius: 1000px;
   }
 
   .animated-box3 {
@@ -96,15 +103,18 @@ body {
     height: 70px;
     top: 20%;
     left: 60%;
+    border-radius: 1000px;
   }
 
   .animated-box4 {
     width: 70px;
     height: 70px;
+    border-radius: 1000px;
   }
 
   .animated-box5 {
     width: 70px;
     height: 70px;
+    border-radius: 1000px;
   }
 }
