@@ -25,9 +25,9 @@ body {
 .animated-box2 {
   width: 100px;
   height: 100px;
-  background-color: #3498db;
+  background-color: #380dd2;
   border-radius: 10px;
-  animation: moveUpDown 3s ease-in-out infinite;
+  animation: moveUpDown 3s linear infinite;
   position: absolute;
   top: 50%;
   left: 20%;
@@ -36,9 +36,9 @@ body {
 .animated-box3 {
   width: 100px;
   height: 100px;
-  background-color: #3498db;
+  background-color: #4d037c;
   border-radius: 10px;
-  animation: moveUpDown 5s ease-in-out infinite;
+  animation: moveUpDown 5s ease-out infinite;
   position: absolute;
   top: 30%;
   left: 70%;
@@ -47,9 +47,9 @@ body {
 .animated-box4 {
   width: 100px;
   height: 100px;
-  background-color: #3498db;
+  background-color: #930259;
   border-radius: 10px;
-  animation: moveUpDown 4s ease-in-out infinite;
+  animation: moveUpDown 4s ease-in infinite;
   position: absolute;
   top: 80%;
   left: 50%;
@@ -58,7 +58,7 @@ body {
 .animated-box5 {
   width: 100px;
   height: 100px;
-  background-color: #3498db;
+  background-color: #c80741;
   border-radius: 10px;
   animation: moveUpDown 2s ease-in-out infinite;
   position: absolute;
@@ -71,9 +71,36 @@ body {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-50px);
+    transform: translateY(-70px);
   }
   100% {
     transform: translateY(0);
+  }
+}
+
+@media (max-width: 460px) {
+  .animated-box1 {
+    width: 70px;
+    height: 70px;
+  }
+
+  .animated-box2 {
+    width: 70px;
+    height: 70px;
+  }
+
+  .animated-box3 {
+    width: 70px;
+    height: 70px;
+  }
+
+  .animated-box4 {
+    width: 70px;
+    height: 70px;
+  }
+
+  .animated-box5 {
+    width: 70px;
+    height: 70px;
   }
 }
