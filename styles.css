@@ -87,11 +87,15 @@ body {
   .animated-box2 {
     width: 70px;
     height: 70px;
+    top: 50%;
+    left: 5%;
   }
 
   .animated-box3 {
     width: 70px;
     height: 70px;
+    top: 20%;
+    left: 60%;
   }
 
   .animated-box4 {
