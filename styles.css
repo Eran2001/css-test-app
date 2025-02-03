@@ -10,7 +10,7 @@
   align-items: center;
   height: 100vh;
   margin: 0;
-  background-color: #f0f0f0;
+  background-image: radial-gradient(#4d037c, #930259);
   position: relative;
 }
 
@@ -21,6 +21,7 @@
   border-radius: 10px;
   animation: moveUpDown 2s ease-in-out infinite;
   border-radius: 1000px;
+  border: 2px solid #FFF;
 }
 
 .animated-box2 {
@@ -33,6 +34,7 @@
   top: 50%;
   left: 20%;
   border-radius: 1000px;
+  border: 2px solid #FFF;
 }
 
 .animated-box3 {
@@ -45,6 +47,7 @@
   top: 30%;
   left: 70%;
   border-radius: 1000px;
+  border: 2px solid #FFF;
 }
 
 .animated-box4 {
@@ -57,6 +60,7 @@
   top: 80%;
   left: 50%;
   border-radius: 1000px;
+  border: 2px solid #FFF;
 }
 
 .animated-box5 {
@@ -69,7 +73,61 @@
   top: 40%;
   left: 80%;
   border-radius: 1000px;
+  border: 2px solid #FFF;
 }
+
+.animated-box6 {
+  width: 100px;
+  height: 100px;
+  background-color: #0bca94;
+  border-radius: 10px;
+  animation: moveUpDown 2s ease-in-out infinite;
+  position: absolute;
+  top: 15%;
+  left: 30%;
+  border-radius: 1000px;
+  border: 2px solid #FFF;
+}
+
+.animated-box7 {
+  width: 100px;
+  height: 100px;
+  background-color: #07c817;
+  border-radius: 10px;
+  animation: moveUpDown 2s ease-in-out infinite;
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  border-radius: 1000px;
+  border: 2px solid #FFF;
+}
+
+.animated-box8 {
+  width: 100px;
+  height: 100px;
+  background-color: #c8c807;
+  border-radius: 10px;
+  animation: moveUpDown 2s ease-in-out infinite;
+  position: absolute;
+  top: 80%;
+  left: 5%;
+  border-radius: 1000px;
+  border: 2px solid #FFF;
+}
+
+.animated-box9 {
+  width: 100px;
+  height: 100px;
+  background-color: #c56a58;
+  border-radius: 10px;
+  animation: moveUpDown 2s ease-in-out infinite;
+  position: absolute;
+  top: 80%;
+  left: 30%;
+  border-radius: 1000px;
+  border: 2px solid #FFF;
+}
+
 
 @keyframes moveUpDown {
   0% {
@@ -117,4 +175,9 @@
     height: 70px;
     border-radius: 1000px;
   }
+}
+
+.sec-div {
+  height: 100vh;
+  background-image: radial-gradient(#3498db, #380dd2);
 }
