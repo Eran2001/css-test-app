@@ -25,8 +25,9 @@
 }
 
 .animated-box1:hover {
-  transform: translateX(-10px) translateY(-10px);
+  transform: translateX(-110px) translateY(-110px);
 }
+
 .animated-box2 {
   width: 100px;
   height: 100px;
@@ -183,6 +184,11 @@
     height: 70px;
     border-radius: 1000px;
   }
+}
+
+.new-class:hover {
+  animation-play-state: paused;
+  background-image: radial-gradient(#570bca, #c80741);
 }
 
 .sec-div {
