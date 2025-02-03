@@ -18,17 +18,19 @@
   width: 100px;
   height: 100px;
   background-color: #3498db;
-  border-radius: 10px;
   animation: moveUpDown 2s ease-in-out infinite;
   border-radius: 1000px;
   border: 2px solid #FFF;
+  transition: transform 0.3s ease-in 0.3s;
 }
 
+.animated-box1:hover {
+  transform: translateX(-10px) translateY(-10px);
+}
 .animated-box2 {
   width: 100px;
   height: 100px;
   background-color: #380dd2;
-  border-radius: 10px;
   animation: moveUpDown 3s linear infinite;
   position: absolute;
   top: 50%;
@@ -41,7 +43,6 @@
   width: 100px;
   height: 100px;
   background-color: #4d037c;
-  border-radius: 10px;
   animation: moveUpDown 5s ease-out infinite;
   position: absolute;
   top: 30%;
@@ -54,7 +55,6 @@
   width: 100px;
   height: 100px;
   background-color: #930259;
-  border-radius: 10px;
   animation: moveUpDown 4s ease-in infinite;
   position: absolute;
   top: 80%;
@@ -67,7 +67,6 @@
   width: 100px;
   height: 100px;
   background-color: #c80741;
-  border-radius: 10px;
   animation: moveUpDown 2s ease-in-out infinite;
   position: absolute;
   top: 40%;
@@ -80,7 +79,6 @@
   width: 100px;
   height: 100px;
   background-color: #0bca94;
-  border-radius: 10px;
   animation: moveUpDown 5s ease-in-out infinite;
   position: absolute;
   top: 15%;
@@ -93,7 +91,6 @@
   width: 100px;
   height: 100px;
   background-color: #07c817;
-  border-radius: 10px;
   animation: moveUpDown 8s ease-in-out infinite;
   position: absolute;
   top: 30%;
@@ -119,7 +116,6 @@
   width: 100px;
   height: 100px;
   background-color: #c56a58;
-  border-radius: 10px;
   animation: moveUpDown 4s ease-in-out infinite;
   position: absolute;
   top: 80%;
@@ -132,7 +128,6 @@
   width: 100px;
   height: 100px;
   background-image: radial-gradient(#0bca94, #380dd2);
-  border-radius: 10px;
   animation: moveUpDown 2s ease-in-out infinite;
   position: absolute;
   top: 80%;
